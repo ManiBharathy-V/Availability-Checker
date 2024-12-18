@@ -1,0 +1,73 @@
+# Python-related files (Flask backend)
+__pycache__/
+*.py[cod]
+*.pyo
+*.env
+*.flaskenv
+instance/
+*.sqlite3
+*.db
+*.log
+*.bak
+
+# Node.js-related files (Vite React frontend)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Vite build output
+dist/
+build/
+
+# Logs
+logs/
+*.log
+*.out
+*.err
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE/Editor-related files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Testing-related files
+.coverage
+pytest_cache/
+.nyc_output/
+
+# Temporary files
+*.swp
+*.swo
+*.tmp
+*.temp
+*.pid
+*.seed
+*.out
+
+# Coverage reports
+htmlcov/
+coverage.xml
+*.cover
+
+# Flask migrations folder
+migrations/
+
+# Cache and virtual environments
+env/
+venv/
+.cache/
+
+# Sensitive data
+secrets.json
+keys.json
+
+# Backend-specific build
+build/
